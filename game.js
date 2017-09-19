@@ -1,3 +1,5 @@
+import ROT from 'rot.min.js';
+
 var Game = {
     display: null,
     map: {},
@@ -23,7 +25,8 @@ var Game = {
         digger.create(digCallback.bind(this));
         
         this._generateBoxes(freeCells);
-        
+        this.
+
         this._drawWholeMap();
     },
     
