@@ -25,7 +25,6 @@ var Game = {
         digger.create(digCallback.bind(this));
         
         this._generateBoxes(freeCells);
-        this.
 
         this._drawWholeMap();
     },
